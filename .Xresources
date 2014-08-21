@@ -1,3 +1,5 @@
 xterm*background:	black
 xterm*foreground:	white
 xterm*faceName:		Terminus:style=Regular:size=12
+xterm*dynamicColors:	true
+xterm*utf8:		2
