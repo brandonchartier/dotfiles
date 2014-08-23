@@ -11,9 +11,11 @@ syntax on
 colorscheme dracula
 set background=dark
 set encoding=utf8
+set cul
 
 set wildmenu
 set wildmode=longest:full,full
+set showcmd
 set number
 set linebreak
 set showbreak=+++
@@ -36,8 +38,8 @@ set noswapfile
 set undolevels=1000
 
 set autoindent
-set expandtab
-set shiftwidth=2
 set smartindent
+set expandtab
 set smarttab
+set shiftwidth=2
 set softtabstop=2
