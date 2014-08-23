@@ -10,7 +10,10 @@ set backspace=indent,eol,start
 syntax on
 colorscheme dracula
 set background=dark
+set encoding=utf8
 
+set wildmenu
+set wildmode=longest:full,full
 set number
 set linebreak
 set showbreak=+++
