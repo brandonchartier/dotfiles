@@ -14,7 +14,8 @@ panel_height=20
 font="-*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*"
 bgcolor=$(herbstclient get frame_border_normal_color)
 selbg=$(herbstclient get window_border_active_color)
-selfg='#101010'
+selfg='#F8F8F2'
+#selfg='#101010'
 
 ####
 # Try to find textwidth binary.
