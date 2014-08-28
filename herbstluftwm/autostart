@@ -8,7 +8,7 @@ function hc() {
 
 hc emit_hook reload
 
-xsetroot -solid '#282A36'
+xsetroot -solid '#5A8E3A'
 
 
 # remove all existing keybindings
@@ -19,7 +19,7 @@ Mod=Mod1
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
-hc keybind $Mod-Return spawn st 
+hc keybind $Mod-Return spawn urxvt 
 
 # tags
 TAG_NAMES=( {1..9} )
@@ -49,9 +49,6 @@ hc keybind $Mod-o split horizontal 0.5
 hc keybind $Mod-s floating toggle
 hc keybind $Mod-f fullscreen toggle
 hc keybind $Mod-p pseudotile toggle
-
-# dmenu
-hc keybind $Mod-m spawn dmenu_run
 
 # resizing
 RESIZESTEP=0.05
@@ -86,11 +83,11 @@ hc set frame_border_normal_color '#101010'
 hc set frame_bg_normal_color '#44475A'
 hc set frame_bg_active_color '#6272A4'
 hc set frame_border_width 0
-hc set window_border_width 0
-hc set window_border_normal_color '#454545'
-hc set window_border_active_color '#282A36'
+hc set window_border_width 4
+hc set window_border_normal_color '#44475a'
+hc set window_border_active_color '#6272a4'
 hc set always_show_frame 1
-hc set window_gap 8
+hc set window_gap 30
 
 # rules
 hc unrule -F

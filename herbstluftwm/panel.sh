@@ -10,11 +10,11 @@ fi
 x=${geometry[0]}
 y=${geometry[1]}
 panel_width=${geometry[2]}
-panel_height=20
+panel_height=24
 font="-*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*"
 bgcolor=$(herbstclient get frame_border_normal_color)
 selbg=$(herbstclient get window_border_active_color)
-selfg='#F8F8F2'
+selfg='#f8f8f2'
 #selfg='#101010'
 
 ####
