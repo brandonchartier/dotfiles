@@ -1,13 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
-xrandr --dpi 96 &
-xrandr -s 1920x1200 &
+xrandr --dpi 96
+xrandr -s 1920x1200
 
-xrdb /home/bchar/.Xresources
+xrdb ~/.Xresources
 
-while xsetroot -name "`date`"
-do
-  sleep 1
-done &
+hsetroot -solid "#282a36"
 
-exec dwm 
+xcompmgr -c -C -o 0.25 &
+
+exec herbstluftwm --locked
+
+#sxhkd &
+#panel &
+#exec bspwm
