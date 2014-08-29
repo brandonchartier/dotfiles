@@ -57,7 +57,7 @@ hc keybind $Mod-Control-k resize up +$RESIZESTEP
 hc keybind $Mod-Control-l resize right +$RESIZESTEP
 
 # menu
-hc keybind $Mod-m spawn dmenu_run -i -l 20 -nb '#101010' -nf '#ababab' -fn '*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*' -sb '#6272a4' -sf '#f8f8f2'
+hc keybind $Mod-m spawn dmenu_run -i -l 10 -nb '#000000' -nf '#ababab' -fn '*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*' -sb '#6272a4' -sf '#f8f8f2'
 
 # mouse
 hc mouseunbind --all
@@ -80,8 +80,8 @@ hc keybind $Mod-Shift-k shift up
 hc keybind $Mod-Shift-l shift right
 
 # colors
-hc set frame_border_active_color '#222222'
-hc set frame_border_normal_color '#101010'
+hc set frame_border_active_color '#101010'
+hc set frame_border_normal_color '#000000'
 hc set frame_bg_normal_color '#44475A'
 hc set frame_bg_active_color '#6272A4'
 hc set frame_border_width 0
