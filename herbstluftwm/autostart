@@ -8,8 +8,7 @@ function hc() {
 
 hc emit_hook reload
 
-xsetroot -solid '#5A8E3A'
-
+hsetroot -solid '#282a36'
 
 # remove all existing keybindings
 hc keyunbind --all
@@ -19,7 +18,7 @@ Mod=Mod1
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
-hc keybind $Mod-Return spawn urxvt 
+hc keybind $Mod-Return spawn urxvt
 
 # tags
 TAG_NAMES=( {1..9} )
@@ -56,6 +55,9 @@ hc keybind $Mod-Control-h resize left +$RESIZESTEP
 hc keybind $Mod-Control-j resize down +$RESIZESTEP
 hc keybind $Mod-Control-k resize up +$RESIZESTEP
 hc keybind $Mod-Control-l resize right +$RESIZESTEP
+
+# menu
+hc keybind $Mod-m spawn dmenu_run -i -l 20 -nb '#101010' -nf '#ababab' -fn '*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*' -sb '#6272a4' -sf '#f8f8f2'
 
 # mouse
 hc mouseunbind --all
