@@ -1,13 +1,9 @@
 #!/bin/bash
 
-xrandr --dpi 96
+xrdb ~/.Xresources
 xrandr -s 1920x1200
 
-xrdb ~/.Xresources
-
-hsetroot -solid "#282a36"
-
-xcompmgr -c -C -o 0.25 &
+xcompmgr -c -C -o 0.3 &
 
 exec herbstluftwm --locked
 
