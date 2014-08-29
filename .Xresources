@@ -1,5 +1,29 @@
 urxvt*scrollBar: false
 urxvt*font: xft:Terminus:14
 
-urxvt.background: #000000
-urxvt.foreground: #ffffff
+urxvt.color0: #000000
+urxvt.color1: #ff5555
+urxvt.color2: #50fa7b
+urxvt.color3: #f1fa8c
+urxvt.color4: #bd93f9
+urxvt.color5: #ff79c6
+urxvt.color6: #8be9fd
+urxvt.color7: #f8f8f2
+urxvt.color8: #000000
+urxvt.color9: #ff5555
+urxvt.color10: #50fa7b
+urxvt.color11: #f1fa8c
+urxvt.color12: #bd93f9
+urxvt.color13: #ff79c6
+urxvt.color14: #8be9fd
+urxvt.color15: #f8f8f2
+urxvt.background: #282a36
+urxvt.foreground: #f8f8f2
+
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
