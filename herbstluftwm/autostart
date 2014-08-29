@@ -57,7 +57,7 @@ hc keybind $Mod-Control-k resize up +$RESIZESTEP
 hc keybind $Mod-Control-l resize right +$RESIZESTEP
 
 # menu
-hc keybind $Mod-m spawn dmenu_run -i -l 10 -nb '#000000' -nf '#ababab' -fn '*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*' -sb '#6272a4' -sf '#f8f8f2'
+hc keybind $Mod-m spawn dmenu_run -i -nb '#000000' -nf '#ababab' -fn '*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*' -sb '#6272a4' -sf '#f8f8f2'
 
 # mouse
 hc mouseunbind --all
