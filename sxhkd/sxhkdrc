@@ -3,7 +3,7 @@
 #
 
 alt + shift + q
-	bspc quit
+	pkill panel; pkdill dzen2; bspc quit
 
 alt + w
 	bspc window -c
@@ -52,7 +52,7 @@ alt + ctrl + {h,j,k,l}
 alt + ctrl + {_,shift + }space
 	bspc {window -p cancel,desktop -c}
 
-alt + shift + {h,j,k,l}
+alt + super + shift + {h,j,k,l}
 	bspc window -e {left -10,down +10,up -10,right +10}
 
 alt + ctrl + shift + {h,j,k,l}
