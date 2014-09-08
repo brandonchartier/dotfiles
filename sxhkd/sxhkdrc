@@ -84,7 +84,7 @@ alt + Return
 	urxvt
 
 alt + space
-	dmenu_run
+	dmenu_run -h 24 -fn "Terminus:14" -nb "#000000" -nf "#9e9e9e" -sb "#424242" -sf "#eeeeee"
 
 # make sxhkd reload its configuration files:
 alt + Escape
