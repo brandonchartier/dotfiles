@@ -1,6 +1,3 @@
-call pathogen#helptags()
-call pathogen#infect()
-
 filetype plugin indent on
 
 set autoread
@@ -8,10 +5,7 @@ set ruler
 set backspace=indent,eol,start
 
 syntax on
-colorscheme dracula
-set background=dark
 set encoding=utf8
-set cul
 
 set wildmenu
 set wildmode=longest:full,full
