@@ -6,17 +6,17 @@ set backspace=indent,eol,start
 
 syntax on
 set encoding=utf8
+set listchars=eol:¬,tab:>-,trail:~
+set list
 
 set wildmenu
-set wildmode=longest:full,full
+set wildmode=list:longest
 set showcmd
 set number
 set linebreak
-set showbreak=+++
 set textwidth=100
 set showmatch
 set noerrorbells
-set novisualbell
 
 set hlsearch
 set smartcase
@@ -30,7 +30,6 @@ set nowb
 set noswapfile
 
 set undolevels=1000
-
 set autoindent
 set smartindent
 set expandtab
