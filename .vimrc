@@ -5,7 +5,7 @@ set ruler
 set backspace=indent,eol,start
 
 syntax on
-set encoding=utf8
+set encoding=utf-8
 set listchars=eol:¬,tab:>-,trail:~
 set list
 
