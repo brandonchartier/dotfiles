@@ -2,15 +2,8 @@
     "layer": "top",
     "position": "top",
     "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "backlight", "battery"],
-    //"sway/workspaces": {
-    //    "format": "{icon}",
-    //    "format-icons": {
-    //        "default": "",
-    //        "focused": ""
-    //    }
-    //},
+    "modules-center": ["sway/window"],
+    "modules-right": ["idle_inhibitor", "pulseaudio", "backlight", "network", "battery", "clock"],
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
@@ -18,15 +11,15 @@
             "activated": " "
         }
     },
-	"pulseaudio": {
+    "pulseaudio": {
         "format": "{volume}%",
-		"on-click": "pavucontrol"
-	},
-	"network": {
-		"format-wifi": " {essid} ({signalStrength}%)",
-		"format-disconnected": "Disconnected",
+        "on-click": "pavucontrol"
+    },
+    "network": {
+        "format-wifi": " {signalStrength}%",
+        "format-disconnected": "Disconnected",
         "on-click": "nm-connection-editor"
-	},
+    },
     "backlight": {
         "format": "{icon} {percent}%",
         "format-icons": [""]
@@ -36,6 +29,6 @@
         "format-icons": ["", "", "", "", ""]
     },
     "clock": {
-        "format": "{:%Y-%m-%d  %H:%M}"
+        "format": "{:%a, %b %d %H:%M}"
     }
 }

@@ -31,12 +31,13 @@ window#waybar {
 }
 
 #clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #mode {
-    padding: 5 14px;
+    padding: 5px 14px;
     margin: 0 2px;
     font-weight: bold;
 }
 
 #battery {
+  padding: 5px 0 5px 0;
 }
 
 #battery icon {
@@ -44,6 +45,7 @@ window#waybar {
 }
 
 #battery.charging {
+    color: green;
 }
 
 @keyframes blink {
