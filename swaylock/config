@@ -1,0 +1,6 @@
+daemonize
+image=/home/bchar/Pictures/background.png
+scaling=fill
+ignore-empty-password
+indicator-idle-visible
+inside-color=00000050
