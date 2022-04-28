@@ -6,8 +6,8 @@ set backspace=indent,eol,start
 
 syntax on
 set encoding=utf-8
-set listchars=eol:¬,tab:>-,trail:~
 set list
+set listchars=eol:¬,tab:>-,trail:~
 
 set wildmenu
 set wildmode=list:longest
@@ -20,14 +20,13 @@ set noerrorbells
 set belloff=all
 
 set hlsearch
-set smartcase
 set ignorecase
+set smartcase
 set incsearch
 set lazyredraw
 set magic
 
 set nobackup
-set nowb
 set noswapfile
 
 set undolevels=1000
